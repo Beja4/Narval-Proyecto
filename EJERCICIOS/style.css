@@ -1,0 +1,299 @@
+*{
+    color: darkslateblue;
+    font-family: "Quicksand", sans-serif;
+}
+
+body {
+    background-color: cadetblue;
+    
+  }
+
+  header{
+    display: flex;
+    background-color: cornsilk;
+    height: 250px;
+    width: 1223px;
+    border-radius: 1rem;
+    padding: 15px;
+   
+    
+  }
+
+  .titulo{ 
+display: flex;
+background-color: blueviolet;
+border-radius: 10rem;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+
+
+  header img{
+    padding-left: 11px;
+  }
+
+  .nav-link {
+    text-align: center;
+    text-decoration: none; /* Elimina la subrayado de los enlaces */
+    margin-left: 33%;
+    align-content: center;
+    font-size: larger;
+    font-weight: bold;
+    
+  }
+
+  .nav-link:hover{
+    transition: 250ms;
+    transform: scale(1.1);
+    color: blue;
+    text-decoration: underline;
+  }
+
+
+
+
+  .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    font-size: large;
+    
+  }
+
+
+
+
+
+  
+  h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+  }
+
+  h2{
+    font-size: medium;
+    text-align: center;
+  }
+
+.sesion{
+    display: block;
+    color:black;
+    font-weight: bold;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    margin-left: 13px;
+    margin-top: 13px;
+    align-items: center;
+    
+    
+}
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+  }
+
+.biblio{
+  display:inline-table;
+  background-color: blueviolet;
+  width: 300px;
+  height: 230px;
+  margin: 150px;
+  border-radius: 5px;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+ 
+}
+
+
+
+
+span p{
+color: blanchedalmond;
+
+}
+
+
+
+  div p{
+    padding: 40px;
+    color: beige;
+    font-size: 36px;
+    
+    text-align: center;
+  }
+
+  
+
+  #idioma{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 16px;
+    margin-left: 165px;
+  }
+
+  .lengua{
+position: absolute;
+top: 0;
+left: 0;
+margin-top: 13px;
+margin-left: 24px;
+
+  }
+
+  .container{
+ display: flex;
+justify-content: center;
+
+  }
+
+  .lateral{
+    height: 226px;
+    width: 155px;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    right: 20px;
+    background-color: rgb(164, 216, 210);
+    overflow-x: hidden;
+    font-weight: bolder;
+
+
+  }
+  .lateral ul{
+    padding: 16px;
+    text-align: justify;
+    
+
+
+  }
+
+  .lateral ul li:hover{
+color:black;
+font-weight: 700;
+background-color: honeydew;
+border-radius: 10px;
+
+  }
+
+  .lateral i{
+margin-right: 5px;
+
+  }
+
+ 
+
+
+  .empezar{display:flex;
+    background-color: blueviolet;
+    color: azure;
+    width: 450px;
+    border-radius: 5px;
+    margin-left: 390px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5); 
+   
+
+
+  }
+
+  h3{
+    font-size: 40px;
+    text-align: center;
+  }
+
+
+  .artista{
+display:flex;
+justify-content: space-around;
+gap: 3rem;
+align-content: flex-end;
+margin-left: 40px;
+width: 20rem;
+margin-bottom: 40px;
+
+  }
+.band{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+  .band img{
+    width: 8rem;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); 
+    justify-content: space-around;
+    
+  }
+
+.band p:hover{
+  transition: 250ms;
+  transform: scale(1.1);
+  color: blue;
+  text-decoration: underline;
+}
+
+#iprevail{
+  margin-left: 45px;
+}
+
+
+.social-media{
+display: flex;
+justify-content: right;
+}
+
+
+.contact{
+  display:inline-flex;
+
+  width: 70px;
+  height: 70px;
+}
+
+
+
+.recuadro{
+  display:inline-flex;
+  justify-content: space-around;
+  height: 150px;
+  width: 300px;
+  padding-bottom: 60px;
+  background-color: blueviolet;
+  border-radius: 30px;
+  
+}
+
+.recuadro p{
+  font-size: 17px;
+  margin-top: 100px;
+}
+
+
+.recuadro img{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.recuadro p:hover{
+  transition: 250ms;
+  transform: scale(1.1);
+  color: blue;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
